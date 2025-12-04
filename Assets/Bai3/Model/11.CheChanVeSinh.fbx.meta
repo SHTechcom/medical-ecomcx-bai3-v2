@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 820dd95da22c142cfb74b2d3ede415df
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: B5_Nilon_rig_tt_nilon
+    second: {fileID: 2100000, guid: e3f9a5564153a44d5b4d30199f22af09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_Eye_L1
+    second: {fileID: 2100000, guid: 5ffb81464609247be9f1323df6e0e773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_Eyelash
+    second: {fileID: 2100000, guid: 46c03f2ca847941e6ba10861efa54e10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_Hair
+    second: {fileID: 2100000, guid: a39134ee0681342da854ad21512de6ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_Lower_Teeth
+    second: {fileID: 2100000, guid: 2d488e98a84d340459192ac5611d834c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_Nails1
+    second: {fileID: 2100000, guid: 6ff963bb53ef74ca4b713ae706470579, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_Quanaobenhnhan
+    second: {fileID: 2100000, guid: 1b93fd65d8bbe4e22b435f792ae6881c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_Scalp
+    second: {fileID: 2100000, guid: 64cbdfb8e27a141c1863cb28bfff391e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_SkinArm
+    second: {fileID: 2100000, guid: 4791822a825384b61be65b76fd3787a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_SkinBody
+    second: {fileID: 2100000, guid: 73c93aac98c844a8e8a0c62a66c9a678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_SkinHead
+    second: {fileID: 2100000, guid: 577f08437226b4905960abdcebf939c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_SkinLeg
+    second: {fileID: 2100000, guid: 77191b58fc48e435eb665028d2605d8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_Tongue
+    second: {fileID: 2100000, guid: f73a92217aa684a878982b50bfc2991a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BenhNhan_Rig_M_Upper_Teeth
+    second: {fileID: 2100000, guid: 2416b2ec644bc45d6983d80f4ff26e32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Khanbong_rigv3_Khanbong_mtl
+    second: {fileID: 2100000, guid: 0aa143cf3313f4d0ab8df2cb4a109231, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tambong_Tambong_mtl
+    second: {fileID: 2100000, guid: a8d642b400e7e4a529b46507103652f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Taydieuduong_rig_Taydieuduong_M_Taydieuduong
+    second: {fileID: 2100000, guid: 0bdf60c79233146999aeb2e27ede6611, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Khanbong_Basecolor with ao
+    second: {fileID: 2800000, guid: 3cc2166576c3649bcb8620e338a60618, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Eye_L_BaseColor
+    second: {fileID: 2800000, guid: 897bf7649cabe408c8c017b151c96b66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Eyelash_BaseColor
+    second: {fileID: 2800000, guid: 409465a3110c64b75a121a4509eded1b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Eyelash_Normal
+    second: {fileID: 2800000, guid: 12b0750460cda40be9c854752a8906e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Eyelash_Opacity
+    second: {fileID: 2800000, guid: 1f9586bb9171c490285039c025013082, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Hair_BaseColor
+    second: {fileID: 2800000, guid: 3e07908e0505b4b409b9f4af8eb27a97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_LowerTeeth_BaseColor
+    second: {fileID: 2800000, guid: d53abb53d081c4958824fb913dc4074d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Nails_BaseColor
+    second: {fileID: 2800000, guid: 18e8d09acc9c843fd9f41d9228c74b18, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Scalp_BaseColor
+    second: {fileID: 2800000, guid: 4ffb737b8d48c411489d2d50541161f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Scalp_Opacity
+    second: {fileID: 2800000, guid: ae13e29105d9d4c69b5458aa396d73e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_SkinArm_BaseColor
+    second: {fileID: 2800000, guid: 82556ddaa2f5d495ab0cbb78c76dc501, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_SkinBody_BaseColor
+    second: {fileID: 2800000, guid: 4dd6237a8c3f74d0391873ec7616581c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_SkinHead_BaseColor
+    second: {fileID: 2800000, guid: 38522d849ed0e4ab08ddf12afb4e4193, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_SkinLeg_BaseColor
+    second: {fileID: 2800000, guid: e15af68e295684c779cfe279e8a6b470, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Taydieuduong_BaseColor
+    second: {fileID: 2800000, guid: bd677c5c7fd964444a589d66932e7462, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_Tongue_BaseColor
+    second: {fileID: 2800000, guid: 48fd9d875d77a45d99cc2d4a23efd179, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: M_UpperTeeth_BaseColor
+    second: {fileID: 2800000, guid: 6eb0277687e7f4e889c2f36063ffac11, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tambong
+    second: {fileID: 2800000, guid: 4da91bb0233a744dd827f8c5fc13ff42, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tt_nilon
+    second: {fileID: 2800000, guid: 3331f2a4337064e819ff567f4337d46b, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

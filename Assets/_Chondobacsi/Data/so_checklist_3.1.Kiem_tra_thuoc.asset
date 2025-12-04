@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f9459708944811b0f3397d73b54b68, type: 3}
+  m_Name: so_checklist_3.1.Kiem_tra_thuoc
+  m_EditorClassIdentifier: 
+  Title: "Ki\u1EC3m tra nh\xE3n thu\u1ED1c"
+  CheckListItemDatas:
+  - label: "T\xEAn"
+    isCorrect: 1
+  - label: "Lo\u1EA1i"
+    isCorrect: 1
+  - label: HSD
+    isCorrect: 1
+  - label: Distract field
+    isCorrect: 0
+  - label: "N\u01A1i s\u1EA3n xu\u1EA5t"
+    isCorrect: 1
+  - label: "Li\u1EC1u l\u01B0\u1EE3ng"
+    isCorrect: 1

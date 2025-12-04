@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Bai3 Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Bai3
+  m_TableCollectionNameGuidString: af7abde813b0c4237a91933232195aac
+  m_Entries:
+  - m_Id: 287526871040
+    m_Key: GN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1820355600572416
+    m_Key: 2.medical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1820359228645376
+    m_Key: 3.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1820364756738048
+    m_Key: 4.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1820367973769216
+    m_Key: "Ch\xE0o h\u1ECFi, Gi\u1EA3i Th\xEDch"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1928428226863104
+    m_Key: "Danh s\xE1ch"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1931559274799104
+    m_Key: "M\u0169"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1931563582349312
+    m_Key: "\xC1o cho\xE0ng v\xF4 khu\u1EA9n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1931566623219712
+    m_Key: "G\u0103ng tay"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1931569907359744
+    m_Key: "\u1ED0ng Nghe V\xE0 Th\u1EBB T\xEAn"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1940842854998016
+    m_Key: 5.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1942873325953024
+    m_Key: "Kh\u1EA9u trang"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1944441630744576
+    m_Key: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1945117614137344
+    m_Key: "R\u1EEDa tay 6 b\u01B0\u1EDBc"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2054517716672512
+    m_Key: 6.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2056538582671360
+    m_Key: "Ch\u1ECDn d\u1EE5ng c\u1EE5 y t\u1EBF"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2057929854279680
+    m_Key: 7.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2058709357289472
+    m_Key: "Ti\u1EBFp t\u1EE5c"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2062041572433920
+    m_Key: "Che b\xECnh phong"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2062190138875904
+    m_Key: 9.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2063126567575552
+    m_Key: 8.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2064080415219712
+    m_Key: "N\xE2ng gi\u01B0\u1EDDng"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2064659099148288
+    m_Key: 10.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2065547280769024
+    m_Key: 11.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2068371070771200
+    m_Key: "\u0110o \u1ED0ng Th\xF4ng"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2068409360572416
+    m_Key: 13.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2070373431500800
+    m_Key: 14.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2070555023892480
+    m_Key: "\u0110\u01B0a \u1ED1ng v\xE0o d\u1EA1 d\xE0y"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2071500457762816
+    m_Key: 15.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2071707123703808
+    m_Key: "B\u01A1m kh\xED & nghe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2071709149552640
+    m_Key: "D\u1ECBch v\u1ECB"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2071710609170432
+    m_Key: "Kh\xF4ng s\u1EE7i b\u1ECDt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072378757603328
+    m_Key: "C\u1ED1 \u0110\u1ECBnh \u1ED0ng"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072445044383744
+    m_Key: 16.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072730705846272
+    m_Key: "Tr\xE1ng \u1ED0ng"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072799463071744
+    m_Key: 17.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2073813800968192
+    m_Key: "Cho \u0102n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2073998476173312
+    m_Key: 18.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2074912586981376
+    m_Key: 19.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2075008355524608
+    m_Key: "Tr\xE1ng \u1ED0ng l\u1EA7n 2"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2075174655483904
+    m_Key: "Th\xE1o B\u0103ng D\xEDnh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2075386618830848
+    m_Key: 20.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2076597136908288
+    m_Key: "Ch\u0103m s\xF3c sau \u0103n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2076634654957568
+    m_Key: 21.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2077315570851840
+    m_Key: 22.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2077666885754880
+    m_Key: "Theo d\xF5i 30-60 ph\xFAt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2077973665538048
+    m_Key: 23.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2078115147800576
+    m_Key: "Thu d\u1ECDn"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2079098879860736
+    m_Key: 24.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2098398739030016
+    m_Key: 2.content
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2135925210472448
+    m_Key: "Ho\xE0n T\u1EA5t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2136811982807040
+    m_Key: "I. H\xE0nh ch\xEDnh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2137280675307520
+    m_Key: "H\u1ECD v\xE0 t\xEAn (In hoa):"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2137442244091904
+    m_Key: "Ng\xE0y sinh:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2137447424057344
+    m_Key: "Tu\u1ED5i:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2139771584372736
+    m_Key: "Gi\u1EDBi t\xEDnh:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2140607928590336
+    m_Key: "D\xE2n t\u1ED9c:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2140888498167808
+    m_Key: "\u0110\u1ECBa ch\u1EC9 c\u01B0 tr\xFA:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2140973554458624
+    m_Key: "S\u1ED1 th\u1EBB BHYT:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2140975425118208
+    m_Key: 'CCCD:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141441768808448
+    m_Key: "L\xFD do v\xE0o vi\u1EC7n:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141479513350144
+    m_Key: "I. Lo\u1EA1i v\xE0 s\u1ED1 l\u01B0\u1EE3ng th\u1EE9c \u0103n "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141740868820992
+    m_Key: "\u0110i\u1EC1n lo\u1EA1i th\u1EE9c \u0103n v\xE0 s\u1ED1 l\u01B0\u1EE3ng
+      th\u1EE9c \u0103n mu\u1ED1n b\u01A1m v\xE0o :"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141849585180672
+    m_Key: "Ti\u1EC1n s\u1EED d\u1ECB \u1EE9ng:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141851325816832
+    m_Key: "Ng\xE0y / gi\u1EDD th\u1EF1c hi\u1EC7n:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141852844154880
+    m_Key: "T\xECnh tr\u1EA1ng hi\u1EC7n t\u1EA1i:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2142080141877248
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8959415096363450629
+  references:
+    version: 2
+    RefIds:
+    - rid: 8959415096363450629
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1764321037406

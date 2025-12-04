@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 882c76bcf74a4b8686fb8ce3b4eb0580, type: 3}
+  m_Name: so_equipment_preset_base
+  m_EditorClassIdentifier: 
+  cloths:
+  - {fileID: 11400000, guid: e977af675aed5004e8e415f951c9ac74, type: 2}
+  - {fileID: 11400000, guid: d9dc32f79b5fa504e906a2b0c0c12931, type: 2}
+  exactlyClothWarning: "\u0110\xE3 chu\u1EA9n b\u1ECB \u0111\u1EE7 trang b\u1ECB
+    b\u1EA3o h\u1ED9."
+  missingClothWarning: "Thi\u1EBFu trang ph\u1EE5c b\u1EA3o h\u1ED9!"
+  extraClothWarning: "Th\u1EEBa trang ph\u1EE5c b\u1EA3o h\u1ED9!"
+  toolsAndMedicines: []
+  exactlyToolAndMedicineWarning: "\u0110\xE3 chu\u1EA9n b\u1ECB \u0111\u1EE7 v\u1EADt
+    t\u01B0."
+  missingToolAndMedicineWarning: "Thi\u1EBFu v\u1EADt t\u01B0!"
+  extraToolAndMedicineWarning: "Th\u1EEBa v\u1EADt t\u01B0!"

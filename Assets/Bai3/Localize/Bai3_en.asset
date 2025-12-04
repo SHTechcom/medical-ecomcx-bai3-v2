@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Bai3_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: af7abde813b0c4237a91933232195aac, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 287526871040
+    m_Localized: Voice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1820355600572416
+    m_Localized: medical records
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1820359228645376
+    m_Localized: Introduce yourself, explain the purpose and feeding procedure to
+      get the patient's cooperation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1820364756738048
+    m_Localized: Instruct the patient on posture and things to note during feeding.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1820367973769216
+    m_Localized: Greetings, Explanations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1928428226863104
+    m_Localized: Check List
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1931559274799104
+    m_Localized: Cap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1931563582349312
+    m_Localized: Cloak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1931566623219712
+    m_Localized: Glove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1931569907359744
+    m_Localized: Stethoscope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1940842854998016
+    m_Localized: Ensure adequate cap, mask, and gown according to basic aseptic regulations.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1942873325953024
+    m_Localized: Mask
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1944441630744576
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1945117614137344
+    m_Localized: 6-step hand washing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2054517716672512
+    m_Localized: Set up a screen to create a private space, respecting the patient
+      before performing the procedure.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2056538582671360
+    m_Localized: Select medical equipment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2057929854279680
+    m_Localized: "S\u1EAFp x\u1EBFp v\u1EADt t\u01B0 v\xF4 khu\u1EA9n v\xE0 s\u1EA1ch
+      tr\xEAn xe \u0111\u1EA9y/khay theo th\u1EE9 t\u1EF1 h\u1EE3p l\xFD, thu\u1EADn
+      ti\u1EC7n cho thao t\xE1c."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2058709357289472
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2062041572433920
+    m_Localized: Cover the screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2062190138875904
+    m_Localized: Set up a screen to create a private space, respecting the patient
+      before performing the procedure.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2063126567575552
+    m_Localized: Bring the prepared cart/tray to the patient's bedside.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2064080415219712
+    m_Localized: Bed lift
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2064659099148288
+    m_Localized: Place the patient on his back with his head elevated 30-60 degrees
+      (Fowler's position) to avoid choking and facilitate manipulation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2065547280769024
+    m_Localized: Remind and encourage the patient to cooperate to make the catheter
+      insertion process easier.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2068371070771200
+    m_Localized: Catheter Measurement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2068409360572416
+    m_Localized: Hold the catheter properly (pen grip) and firmly insert the catheter
+      into the nose to about 10cm.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2070373431500800
+    m_Localized: Depress the tongue to check, if the tube does not coil, continue
+      to thread in rhythm with swallowing and bring the tube to the marked line.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2070555023892480
+    m_Localized: Inserting a tube into the stomach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2071500457762816
+    m_Localized: "Th\u1EF1c hi\u1EC7n 1 trong 3 c\xE1ch (h\xFAt d\u1ECBch, nghe \xE2m
+      thanh, ki\u1EC3m tra s\u1EE7i b\u1ECDt) \u0111\u1EC3 x\xE1c \u0111\u1ECBnh
+      ch\u1EAFc ch\u1EAFn \u0111\u1EA7u \u1ED1ng \u0111\xE3 v\xE0o d\u1EA1 d\xE0y"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2071707123703808
+    m_Localized: Pump air & listen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2071709149552640
+    m_Localized: Gastric juice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2071710609170432
+    m_Localized: No foaming
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072378757603328
+    m_Localized: Pipe Fixation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072445044383744
+    m_Localized: Use tape to firmly fix the catheter to the nose and cheek/forehead
+      to avoid displacement during feeding.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072730705846272
+    m_Localized: Pipe Coating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2072799463071744
+    m_Localized: Rinse the tube with boiled water (10-15ml), then slowly inject the
+      food (after defecation) as ordered, and finally rinse the tube again with water
+      (20ml) to avoid clogging.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2073813800968192
+    m_Localized: Feeding
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2073998476173312
+    m_Localized: Rinse the tube with boiled water (10-15ml), then slowly inject the
+      food (after defecation) as ordered, and finally rinse the tube again with water
+      (20ml) to avoid clogging.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2074912586981376
+    m_Localized: Rinse the tube with boiled water (10-15ml), then slowly inject the
+      food (after defecation) as ordered, and finally rinse the tube again with water
+      (20ml) to avoid clogging.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2075008355524608
+    m_Localized: Second Coating of Pipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2075174655483904
+    m_Localized: Remove the Tape
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2075386618830848
+    m_Localized: "R\xFAt \u1ED1ng nh\u1EB9 nh\xE0ng v\xE0 t\u1EEB t\u1EEB. Khi \u1ED1ng
+      g\u1EA7n r\xFAt h\u1EBFt (15 - 20cm), k\u1EB9p ho\u1EB7c g\u1EADp \u1ED1ng
+      l\u1EA1i \u0111\u1EC3 tr\xE1nh d\u1ECBch d\u1EA1 d\xE0y ch\u1EA3y ng\u01B0\u1EE3c
+      ra ngo\xE0i."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2076597136908288
+    m_Localized: Post-meal care
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2076634654957568
+    m_Localized: Clean mouth and nose, remove cotton towels and plastic to clean
+      the patient.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2077315570851840
+    m_Localized: Keep the patient's head elevated 30 - 60 degrees for 30 - 60 minutes
+      to avoid reflux and monitor closely for any unusual signs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2077666885754880
+    m_Localized: Follow up 30-60 minutes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2077973665538048
+    m_Localized: Collect and sort dirty tools, remove gloves according to procedure
+      to ensure hygiene.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2078115147800576
+    m_Localized: Clean up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2079098879860736
+    m_Localized: Perform hand sanitizer after finishing work and cleaning up tools.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2098398739030016
+    m_Localized: Open and record the patient's personal information and medical history.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2135925210472448
+    m_Localized: Finnish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2136811982807040
+    m_Localized: I. Administration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2137280675307520
+    m_Localized: 'Full name (printed):'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2137442244091904
+    m_Localized: Date of birth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2137447424057344
+    m_Localized: Age
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2139771584372736
+    m_Localized: 'Gender:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2140607928590336
+    m_Localized: 'Nation:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2140888498167808
+    m_Localized: 'Residential address:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2140973554458624
+    m_Localized: 'HICN:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2140975425118208
+    m_Localized: 'CIN:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141441768808448
+    m_Localized: Reason
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141479513350144
+    m_Localized: I. Type and quantity of food
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141740868820992
+    m_Localized: 'Fill in the type of food and the amount of food you want to pump
+      in:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141849585180672
+    m_Localized: 'History '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141851325816832
+    m_Localized: 'Date/Time '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2141852844154880
+    m_Localized: 'Current status:'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

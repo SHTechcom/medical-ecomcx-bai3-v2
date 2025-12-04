@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5520dfd47c642acba426a21931d5ea3, type: 3}
+  m_Name: Ao
+  m_EditorClassIdentifier: 
+  key: equipment_cloth_ao
+  equipmentName: "\xC1o cho\xE0ng v\xF4 khu\u1EA9n"
+  type: 1
+  modal: {fileID: 5700101439452614629, guid: 89028a5868207c0438af1d2c0d8ef23a, type: 3}
+  scaleOnUI: 15
+  rotate: {x: 0, y: 180, z: 0}
+  errorPos: {x: 0, y: 15, z: 0}
