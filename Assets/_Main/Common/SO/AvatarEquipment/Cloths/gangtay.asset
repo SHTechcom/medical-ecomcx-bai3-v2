@@ -15,7 +15,7 @@ MonoBehaviour:
   key: cloth_gang_tay
   equipmentName: "G\u0103ng tay"
   type: 1
-  modal: {fileID: 919132149155446097, guid: b7a8686211a005347bf71a50f819c44e, type: 3}
+  modal: {fileID: 1180067364440960849, guid: 27c357ac1d5e6fa4abadb976db051066, type: 3}
   scaleOnUI: 100
   rotate: {x: -90, y: 0, z: 0}
   errorPos: {x: 0, y: 0, z: 0}

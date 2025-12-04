@@ -23,10 +23,10 @@ public class DialogArrowButton : MonoBehaviour
         {
             isShowing = !isShowing;
             //hide
-            content.DOAnchorPosY(-250, 0.5f).OnComplete(() =>
+            content.DOAnchorPosY(-400, 0.5f).OnComplete(() =>
             {
                 isAniming = false;
-                icon.localScale = new Vector3(-1, 1, 1);
+                icon.localScale = new Vector3(1, -1, 1);
             });
         }
         else
