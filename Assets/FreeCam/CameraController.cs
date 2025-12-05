@@ -9,7 +9,7 @@ public enum CameraType
 
 public class CameraController : MonoBehaviour
 {
-    private CameraType type;
+    public CameraType type;
     [Header("Movement Settings")]
     public float moveSpeed = 5f;
     public float fastSpeedMultiplier = 3f;
@@ -19,6 +19,11 @@ public class CameraController : MonoBehaviour
 
     private float yaw;
     private float pitch;
+
+    // Thêm các biến để giới hạn vùng di chuyển
+    [Header("Movement Limit")]
+    public Vector3 minPosition = new Vector3(-10, 1, -10);
+    public Vector3 maxPosition = new Vector3(10, 10, 10);
 
     private void Start()
     {
@@ -59,6 +64,9 @@ public class CameraController : MonoBehaviour
                 transform.LookAt(target);
             }
         }
+
+        // Clamp vị trí camera sau khi di chuyển
+        ClampPosition();
     }
 
     public void SetType(CameraType type)
@@ -107,6 +115,19 @@ public class CameraController : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift)) speed *= fastSpeedMultiplier;
 
         transform.position += move * speed * Time.deltaTime;
+
+        // Clamp vị trí camera sau khi di chuyển
+        ClampPosition();
+    }
+
+    // Hàm giới hạn vị trí camera
+    private void ClampPosition()
+    {
+        Vector3 clamped = transform.position;
+        clamped.x = Mathf.Clamp(clamped.x, minPosition.x, maxPosition.x);
+        clamped.y = Mathf.Clamp(clamped.y, minPosition.y, maxPosition.y);
+        clamped.z = Mathf.Clamp(clamped.z, minPosition.z, maxPosition.z);
+        transform.position = clamped;
     }
 
     public Transform target;              // Object để quan sát
@@ -203,5 +224,14 @@ public class CameraController : MonoBehaviour
             target.position += pan;
         }
         lastMousePosition = Input.mousePosition;
+    }
+
+    // Vẽ Gizmo để nhìn rõ vùng giới hạn di chuyển
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Vector3 center = (minPosition + maxPosition) * 0.5f;
+        Vector3 size = maxPosition - minPosition;
+        Gizmos.DrawWireCube(center, size);
     }
 }
