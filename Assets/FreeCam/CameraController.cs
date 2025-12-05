@@ -34,21 +34,19 @@ public class CameraController : MonoBehaviour
 
     private void Update()
     {
-        if (type == CameraType.Free)
+        if (type == CameraType.Lock)
         {
-            HandleMouseLook();
-            HandleMovement();
+            return;
+        }
+        HandleMouseLook();
+        HandleMovement();
+        if (isModeAroundTarget)
+        {
+            MouseInput();
         }
         else
         {
-            if (isModeAroundTarget)
-            {
-                MouseInput();
-            }
-            else
-            {
-                HandleClickAndDrag();
-            }
+            HandleClickAndDrag();
         }
     }
 

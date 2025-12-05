@@ -59,8 +59,8 @@ public class ZoomingAndRotate : MonoBehaviour
             scale += Vector3.one * scroll * zoomSpeed;
 
             scale.x = Mathf.Clamp(scale.x, scale.x * 0.2f, scale.x * 5);
-            scale.y = Mathf.Clamp(scale.y, scale.y * 0.2f, scale.y *5);
-            scale.z = Mathf.Clamp(scale.z, scale.z * 0.2f, scale.z *5);
+            scale.y = Mathf.Clamp(scale.y, scale.y * 0.2f, scale.y * 5);
+            scale.z = Mathf.Clamp(scale.z, scale.z * 0.2f, scale.z * 5);
 
             transform.localScale = scale;
         }

@@ -1,7 +1,5 @@
 ﻿using System.Collections.Generic;
 using DG.Tweening;
-using Sirenix.Utilities;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,6 +23,7 @@ public class InputZoomingManager : MonoBehaviour
 
     private void Start()
     {
+        cameraController.type = CameraType.Lock;
         freeBtn.onClick.AddListener(() =>
         {
             StartFreeMode();
@@ -38,7 +37,7 @@ public class InputZoomingManager : MonoBehaviour
 
     private void Update()
     {
-        if (cameraController.type != CameraType.Free) return;
+        if (cameraController.type == CameraType.Lock) return;
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = _cam.ScreenPointToRay(Input.mousePosition);
@@ -103,6 +102,7 @@ public class InputZoomingManager : MonoBehaviour
 
     public void StartFreeMode()
     {
+        cameraController.type = CameraType.Free;
         var canvases = FindObjectsOfType<Canvas>(true);
         foreach (var c in canvases)
         {
@@ -120,6 +120,7 @@ public class InputZoomingManager : MonoBehaviour
 
     public void StopMode()
     {
+        cameraController.type = CameraType.Lock;
         openedCanvasCached.ForEach(i => i.gameObject.SetActive(true));
         openedCanvasCached.Clear();
         _cameraTrans.gameObject.SetActive(false);
