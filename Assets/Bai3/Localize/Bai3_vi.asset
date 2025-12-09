@@ -91,8 +91,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2057929854279680
-    m_Localized: Remind and encourage the patient to cooperate to make the catheter
-      insertion process easier.
+    m_Localized: "S\u1EAFp x\u1EBFp v\u1EADt t\u01B0 v\xF4 khu\u1EA9n v\xE0 s\u1EA1ch
+      tr\xEAn xe \u0111\u1EA9y/khay theo th\u1EE9 t\u1EF1 h\u1EE3p l\xFD, thu\u1EADn
+      ti\u1EC7n cho thao t\xE1c."
     m_Metadata:
       m_Items: []
   - m_Id: 2058709357289472
@@ -326,6 +327,11 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2227147421962240
     m_Localized: "Che ch\u1EAFn v\u1EC7 sinh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4018520810577920
+    m_Localized: "Click \u0111\u01B0\u1EDDng ngang \u0111\u1EC3 m\u1EDF g\xF3i v\xF4
+      khu\u1EA9n"
     m_Metadata:
       m_Items: []
   references:

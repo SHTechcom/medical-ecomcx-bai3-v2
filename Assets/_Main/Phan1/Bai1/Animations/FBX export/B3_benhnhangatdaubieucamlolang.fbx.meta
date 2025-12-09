@@ -80,7 +80,7 @@ ModelImporter:
       name: M_UpperTeeth_BaseColor
     second: {fileID: 2800000, guid: 15b8dbdc0af0148b591f56b1785d380d, type: 3}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
