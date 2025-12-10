@@ -13,7 +13,7 @@ public class XoayGiuongController : MonoBehaviour
     public void PlayForward()
     {
         //anim["Take 001"].speed = 1f;
-        anim.Play("Take 001");
+        anim.Play("Bai03_anim_dieuchinhgiuongnanglen_tradinhkhang");
         StartCoroutine(waitActiveNextBtn());
     }
 
