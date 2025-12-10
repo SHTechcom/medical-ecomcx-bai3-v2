@@ -5358,6 +5358,7 @@ MonoBehaviour:
   - {fileID: 2098197384}
   - {fileID: 1669911143}
   - {fileID: 3182557992248078473}
+  - {fileID: 940775518}
 --- !u!114 &111742304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25873,10 +25874,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 111742304}
-        m_TargetAssemblyTypeName: _Main.Phan1.Bai1.StepSystem.StepConditionController,
-          Assembly-CSharp
-        m_MethodName: MinusConditionCount
+      - m_Target: {fileID: 111742303}
+        m_TargetAssemblyTypeName: _Main.Phan1.Bai1.StepSystem.LevelControl, Assembly-CSharp
+        m_MethodName: Replay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -25885,18 +25885,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 746726915}
-        m_TargetAssemblyTypeName: InputZoomingManager, Assembly-CSharp
-        m_MethodName: Show
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &555293604
 MonoBehaviour:
