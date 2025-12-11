@@ -12,8 +12,9 @@ public class XoayGiuongController : MonoBehaviour
 
     public void PlayForward()
     {
+        anim.Play();
         //anim["Take 001"].speed = 1f;
-        anim.Play("Bai03_anim_dieuchinhgiuongnanglen_tradinhkhang");
+        //anim.Play("Bai03_anim_dieuchinhgiuongnanglen_tradinhkhang");
         StartCoroutine(waitActiveNextBtn());
     }
 
@@ -22,10 +23,10 @@ public class XoayGiuongController : MonoBehaviour
         yield return new WaitForSeconds(3);
         nextBtn.SetActive(true);
     }
-    void PlayReverse()
-    {
-        anim["Run"].speed = -1f;
-        anim["Run"].time = anim["Run"].length;
-        anim.Play("Run");
-    }
+    //void PlayReverse()
+    //{
+    //    anim["Run"].speed = -1f;
+    //    anim["Run"].time = anim["Run"].length;
+    //    anim.Play("Run");
+    //}
 }
