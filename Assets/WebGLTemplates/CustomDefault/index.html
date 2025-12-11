@@ -63,11 +63,12 @@
     <p id="errorText" style="text-align: center; width:60vw; color:white"></p>
   </div>
   <div id="unity-container" class="unity-desktop">
-    <canvas id="unity-canvas" width="{{{ WIDTH }}}" height="{{{ HEIGHT }}}" tabindex="-1"></canvas>
+    <canvas id="unity-canvas" width="1920" height="1080" tabindex="-1"></canvas>
     <div id="unity-loading-bar">
       <div id="unity-progress-bar-empty">
         <div id="unity-progress-bar-full"></div>
       </div>
+      <div id="unity-progress-text">0%</div>
     </div>
     <div id="unity-warning"> </div>
     <div id="unity-footer">
@@ -174,10 +175,14 @@
     script.src = loaderUrl;
     script.onload = () => {
       createUnityInstance(canvas, config, (progress) => {
-        document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
+        const percentage = Math.round(100 * progress);
+        document.querySelector("#unity-progress-bar-full").style.width = percentage + "%";
+        document.querySelector("#unity-progress-text").textContent = percentage + "%";
       }).then((unityInstance) => {
         window.unityInstance = unityInstance;
-        document.querySelector("#unity-loading-bar").style.display = "none";
+        setTimeout(() => {
+          document.querySelector("#unity-loading-bar").style.display = "none";
+        }, 300);
         document.querySelector("#unity-fullscreen-button").onclick = () => {
           unityInstance.SetFullscreen(1);
         };
