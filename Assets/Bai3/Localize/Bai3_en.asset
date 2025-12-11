@@ -318,6 +318,22 @@ MonoBehaviour:
     m_Localized: "ti\u1EBFng"
     m_Metadata:
       m_Items: []
+  - m_Id: 4697512467226624
+    m_Localized: Use a syringe to aspirate fluid from the stomach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4697540929773568
+    m_Localized: Dip the outer tip of the catheter into a cup of boiled water; if
+      no bubbles appear, it indicates that the catheter tip has not been mistakenly
+      inserted into the trachea.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4718394099097600
+    m_Localized: Using a syringe, inject about 20-30 ml of air while simultaneously
+      placing the stethoscope over the patient's epigastric region to listen. A gurgling
+      sound is sufficient.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -338,6 +338,24 @@ MonoBehaviour:
     m_Localized: "L\u1EAFng nghe ti\u1EBFng"
     m_Metadata:
       m_Items: []
+  - m_Id: 4697512467226624
+    m_Localized: "D\xF9ng b\u01A1m ti\xEAm h\xFAt d\u1ECBch trong d\u1EA1 d\xE0y"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4697540929773568
+    m_Localized: "Nh\xFAng \u0111\u1EA7u ngo\xE0i \u1ED1ng th\xF4ng v\xE0o c\u1ED1c
+      n\u01B0\u1EDBc ch\xEDn, n\u1EBFu kh\xF4ng th\u1EA5y s\u1EE7i b\u1ECDt ch\u1EE9ng
+      t\u1ECF \u0111\u1EA7u \u1ED1ng th\xF4ng kh\xF4ng bi \u0111\u01B0a nh\u1EA7m
+      v\xE0o \u0111\u01B0\u1EDDng kh\xED qu\u1EA3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4718394099097600
+    m_Localized: "D\xF9ng b\u01A1m tim b\u01A1m kho\u1EA3ng 20-30 ml kh\xF4ng kh\xED
+      \u0111\u1ED3ng th\u1EDDi \u0111\u1EB7t \u1ED1ng nghe l\xEAn v\xF9ng th\u01B0\u1EE3ng
+      v\u1ECB ng\u01B0\u1EDDi b\u1EC7nh \u0111\u1EC3 nghe, nghe th\u1EA5y ti\u1EBFng
+      \"\u1EE5c \u1EE5c\" l\xE0 \u0111\u01B0\u1EE3c."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
