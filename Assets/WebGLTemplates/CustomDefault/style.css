@@ -187,3 +187,10 @@
     height: 38px;
     background: url('fullscreen-button.png') no-repeat center
 }
+
+#icon-loading {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
