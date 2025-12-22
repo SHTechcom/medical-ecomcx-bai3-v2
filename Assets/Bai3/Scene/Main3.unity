@@ -17429,9 +17429,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 99264300426024698a196d1ffee34875, type: 3}
       insertIndex: -1
       addedObject: {fileID: 274915522}
-    - targetCorrespondingSourceObject: {fileID: -8313298511257174057, guid: 99264300426024698a196d1ffee34875, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1986983298}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 99264300426024698a196d1ffee34875, type: 3}
       insertIndex: -1
@@ -62319,7 +62316,7 @@ MonoBehaviour:
         m_MethodName: PlayAnimation
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 9166083410557504020, guid: 7c7e0d688ec88496ca0fb6a27864a65c, type: 3}
+          m_ObjectArgument: {fileID: 1827226128182048838, guid: 7c7e0d688ec88496ca0fb6a27864a65c, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AnimationClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -67864,11 +67861,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5343929021663699044, guid: 3aea42af52b1f184991d99025d68009a, type: 3}
   m_PrefabInstance: {fileID: 1300913014}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1302230872 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8313298511257174057, guid: 99264300426024698a196d1ffee34875, type: 3}
-  m_PrefabInstance: {fileID: 383235867}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1302952284 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3094325023580603959, guid: 30abdca4ebc02154aae8fcedadbd20b0, type: 3}
@@ -71531,7 +71523,7 @@ MonoBehaviour:
         m_MethodName: PlayAnimation
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 9166083410557504020, guid: 7c7e0d688ec88496ca0fb6a27864a65c, type: 3}
+          m_ObjectArgument: {fileID: 1827226128182048838, guid: 7c7e0d688ec88496ca0fb6a27864a65c, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AnimationClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -102056,7 +102048,7 @@ MonoBehaviour:
         m_MethodName: PlayAnimation
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 5028982397989897920, guid: aa58604b286464d2286f57f41c42c154, type: 3}
+          m_ObjectArgument: {fileID: 1827226128182048838, guid: aa58604b286464d2286f57f41c42c154, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AnimationClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -103424,92 +103416,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.08933224, y: -0.022903103, z: 0.00010403991}
     m_Extent: {x: 0.12825795, y: 0.121197686, z: 0.11113487}
   m_DirtyAABB: 0
---- !u!1 &1986983297
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1986983298}
-  - component: {fileID: 1986983300}
-  - component: {fileID: 1986983299}
-  m_Layer: 0
-  m_Name: Goi_ke_tay
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1986983298
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1986983297}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -1, z: 0.00000006657903, w: 0}
-  m_LocalPosition: {x: 0.08397789, y: -0.03, z: 0.9}
-  m_LocalScale: {x: 9.469069, y: 5.1132975, z: 7.35431}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1302230872}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1986983299
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1986983297}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 727fe17b0a95ac74582a37ec7d33c793, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1986983300
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1986983297}
-  m_Mesh: {fileID: 4596137998692212631, guid: e9b7772423fea884eadd950f8857ead5, type: 3}
 --- !u!1 &1988215764
 GameObject:
   m_ObjectHideFlags: 0
@@ -107324,9 +107230,9 @@ Animation:
   m_GameObject: {fileID: 2082569488}
   m_Enabled: 1
   serializedVersion: 4
-  m_Animation: {fileID: 8448613369700769687, guid: f67f18bdfc1e4448cb9a57fc52db1386, type: 3}
+  m_Animation: {fileID: 1827226128182048838, guid: f67f18bdfc1e4448cb9a57fc52db1386, type: 3}
   m_Animations:
-  - {fileID: 8448613369700769687, guid: f67f18bdfc1e4448cb9a57fc52db1386, type: 3}
+  - {fileID: 1827226128182048838, guid: f67f18bdfc1e4448cb9a57fc52db1386, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -107368,7 +107274,7 @@ MonoBehaviour:
         m_MethodName: PlayAnimation
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8448613369700769687, guid: f67f18bdfc1e4448cb9a57fc52db1386, type: 3}
+          m_ObjectArgument: {fileID: 1827226128182048838, guid: f67f18bdfc1e4448cb9a57fc52db1386, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AnimationClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0

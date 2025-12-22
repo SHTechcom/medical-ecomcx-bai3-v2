@@ -75,7 +75,7 @@ ModelImporter:
       name: M_base_BaseColor
     second: {fileID: 2800000, guid: 87c7a4954550141f596c3bdbef835230, type: 3}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
