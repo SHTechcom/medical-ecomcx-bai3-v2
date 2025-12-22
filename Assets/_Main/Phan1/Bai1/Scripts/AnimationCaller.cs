@@ -61,8 +61,7 @@ namespace _Main.Phan1.Bai1.Scripts
 
         public void IncreaseSpeed()
         {
-            speed += 0.1f;
-            if (speed > 5f) speed = 5f;
+            speed = 2;
 
             if (anim.isPlaying)
                 anim[clip.name].speed = speed;
@@ -70,8 +69,7 @@ namespace _Main.Phan1.Bai1.Scripts
 
         public void DecreaseSpeed()
         {
-            speed -= 0.1f;
-            if (speed < 0.1f) speed = 0.1f;
+            speed = 0.5f;
 
             if (anim.isPlaying)
                 anim[clip.name].speed = speed;

@@ -356,6 +356,10 @@ MonoBehaviour:
       \"\u1EE5c \u1EE5c\" l\xE0 \u0111\u01B0\u1EE3c."
     m_Metadata:
       m_Items: []
+  - m_Id: 8766105542905856
+    m_Localized: "V\u1EC7 sinh tay"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

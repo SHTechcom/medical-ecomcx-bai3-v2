@@ -30,40 +30,36 @@ public class CameraController : MonoBehaviour
         Vector3 rot = transform.eulerAngles;
         yaw = rot.y;
         pitch = rot.x;
+        xRotation = rot.x;
+        yRotation = rot.y;
     }
 
     private void Update()
     {
-        if (type == CameraType.Lock)
+        if (type == CameraType.Free)
         {
-            return;
+            HandleMouseLook();
+            HandleMovement();
         }
-        HandleMouseLook();
-        HandleMovement();
-        if (isModeAroundTarget)
+        else // Lock
         {
-            MouseInput();
-        }
-        else
-        {
-            HandleClickAndDrag();
+            if (isModeAroundTarget)
+                MouseInput();
+            else
+                HandleClickAndDrag();
         }
     }
 
     void LateUpdate()
     {
-        if (type == CameraType.Lock)
+        if (type == CameraType.Lock && isModeAroundTarget && target)
         {
-            if (isModeAroundTarget)
-            {
-                Quaternion rotation = Quaternion.Euler(currentY, currentX, 0);
-                Vector3 dir = new Vector3(0, 0, -distance);
-                transform.position = target.position + rotation * dir;
-                transform.LookAt(target);
-            }
+            Quaternion rotation = Quaternion.Euler(currentY, currentX, 0);
+            Vector3 dir = new Vector3(0, 0, -distance);
+            transform.position = target.position + rotation * dir;
+            transform.LookAt(target);
         }
 
-        // Clamp vị trí camera sau khi di chuyển
         ClampPosition();
     }
 
@@ -74,48 +70,42 @@ public class CameraController : MonoBehaviour
 
     private void HandleMouseLook()
     {
-        // Giữ chuột phải để xoay camera
-        if (Input.GetMouseButton(1))
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-
-            float mouseX = Input.GetAxis("Mouse X") * lookSensitivity;
-            float mouseY = Input.GetAxis("Mouse Y") * lookSensitivity;
-
-            yaw += mouseX;
-            pitch -= mouseY;
-            pitch = Mathf.Clamp(pitch, -89f, 89f);
-
-            transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
-        }
-        else
+        if (!Input.GetMouseButton(1))
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            return;
         }
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
+        float mouseX = Input.GetAxis("Mouse X") * lookSensitivity;
+        float mouseY = Input.GetAxis("Mouse Y") * lookSensitivity;
+
+        yaw += mouseX;
+        pitch -= mouseY;
+        pitch = Mathf.Clamp(pitch, -85f, 85f);
+
+        transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
     }
 
     private void HandleMovement()
     {
-        if (!Input.GetMouseButton(1)) return; // chỉ di chuyển khi giữ chuột phải
+        if (!Input.GetMouseButton(1)) return;
 
-        float moveX = Input.GetAxis("Horizontal");
-        float moveZ = Input.GetAxis("Vertical");
+        Vector3 dir = Vector3.zero;
+        dir += transform.forward * Input.GetAxis("Vertical");
+        dir += transform.right * Input.GetAxis("Horizontal");
 
-        Vector3 move = transform.right * moveX + transform.forward * moveZ;
+        if (Input.GetKey(KeyCode.E)) dir += Vector3.up;
+        if (Input.GetKey(KeyCode.Q)) dir += Vector3.down;
 
-        // Q và E để di chuyển lên/xuống
-        if (Input.GetKey(KeyCode.Q)) move += Vector3.down;
-        if (Input.GetKey(KeyCode.E)) move += Vector3.up;
+        float speed = Input.GetKey(KeyCode.LeftShift)
+            ? moveSpeed * fastSpeedMultiplier
+            : moveSpeed;
 
-        float speed = moveSpeed;
-        if (Input.GetKey(KeyCode.LeftShift)) speed *= fastSpeedMultiplier;
-
-        transform.position += move * speed * Time.deltaTime;
-
-        // Clamp vị trí camera sau khi di chuyển
-        ClampPosition();
+        transform.position += dir * speed * Time.deltaTime;
     }
 
     // Hàm giới hạn vị trí camera

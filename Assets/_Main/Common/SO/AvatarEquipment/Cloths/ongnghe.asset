@@ -18,4 +18,4 @@ MonoBehaviour:
   modal: {fileID: 5310524133917294570, guid: 691656bac5125f04fa016894ef94a7ca, type: 3}
   scaleOnUI: 15
   rotate: {x: 0, y: 180, z: 0}
-  errorPos: {x: 0, y: 15, z: 0}
+  errorPos: {x: 0, y: 20, z: 0}

@@ -2542,7 +2542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 20
+    m_Left: -50
     m_Right: 20
     m_Top: 20
     m_Bottom: 20
@@ -3175,7 +3175,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 3, y: -5}
-  m_SizeDelta: {x: 323.03, y: 627.7}
+  m_SizeDelta: {x: 400, y: 627.7}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3125653478709430337
 CanvasRenderer:
