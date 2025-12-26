@@ -90,6 +90,11 @@ ModelImporter:
       name: Taydieuduong_rig_Taydieuduong_M_Taydieuduong
     second: {fileID: 2100000, guid: 0bdf60c79233146999aeb2e27ede6611, type: 2}
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 87772351194f9460cb605095123f3517, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Khanbong_Basecolor with ao
@@ -188,7 +193,7 @@ ModelImporter:
     materialImportMode: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
